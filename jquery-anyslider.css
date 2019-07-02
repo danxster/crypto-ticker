@@ -12,7 +12,7 @@
     height: 100%;
     width: 100%;
     text-align: center;
-    
+
 }
 
 .slider:hover .as-prev-arrow,
@@ -42,7 +42,7 @@
 /* Other styles not related to AnySlider */
 body {
     color: #fff;
-    font: 34px "Trebuchet MS", sans-serif;
+    font: 50px "Trebuchet MS", sans-serif;
     margin: 0;
     background-image: url("img/bg.png");
 
