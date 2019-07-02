@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crypto Ticker</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="ajax.scripts.js"></script>
+        <link rel="stylesheet" href="jquery-anyslider.css">
+        <script src="jquery.easing.1.3.js"></script>
+        <script src="jquery.anyslider.js"></script>
+        <script>
+        $(function () {
+           $('.slider1').anyslider({
+               animation: 'easeOutBounce',
+               interval: 6000,
+               reverse: false,
+               showControls: false,
+               startSlide: 1
+           });
+         });
+        </script>
+    </head>
+
+
+    <body>
+        <div class="slider-wrapper">
+
+            <div class="slider slider1">
+                <div>
+                    <img src="img/neo.png" style = "width:15%; height:15%;">
+                    <h2>NEO</h2>
+                    BTC: <span class="btc">Data Unavailable</span><br>
+                    USD: <span class="usd">Data Unavailable</span><br>
+                    24h: <span class="24h">Data Unavailable</span>%
+                </div>
+
+                <div>
+                    <img src="img/btc.png" style = "width:15%; height:15%;">
+                    <h2>BTC</h2>
+                    USD: <span class="btcusd">Data Unavailable</span><br>
+                    24h: <span class="btc24h">Data Unavailable</span>%
+                </div>
+
+                <div> 
+                    <img src="img/omg.png" style = "width:15%; height:15%;">
+                    <h2>OMG</h2>
+                    BTC: <span class="omgbtc">Data Unavailable</span><br>
+                    USD: <span class="omgusd">Data Unavailable</span><br>
+                    24h: <span class="omg24h">Data Unavailable</span>%
+                </div>
+
+                <div> 
+                    <img src="img/iota.png" style = "width:15%; height:15%;">
+                    <h2>IOTA</h2>
+                    BTC: <span class="iotbtc">Data Unavailable</span><br>
+                    USD: <span class="iotusd">Data Unavailable</span><br>
+                    24h: <span class="iot24h">Data Unavailable</span>%
+                </div>
+
+                <div> 
+                    <img src="img/gnt.png" style = "width:15%; height:15%;">
+                    <h2>GNT</h2>
+                    BTC: <span class="gntbtc">Data Unavailable</span><br>
+                    USD: <span class="gntusd">Data Unavailable</span><br>
+                    24h: <span class="gnt24h">Data Unavailable</span>%
+                </div>
+
+                <div> 
+                    <img src="img/vtc.png" style = "width:15%; height:15%;">
+                    <h2>VTC</h2>
+                    BTC: <span class="vtcbtc">Data Unavailable</span><br>
+                    USD: <span class="vtcusd">Data Unavailable</span><br>
+                    24h: <span class="vtc24h">Data Unavailable</span>%
+                </div>
+            </div>
+    </body>
+</html>
