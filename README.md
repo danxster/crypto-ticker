@@ -12,6 +12,6 @@ Raspberry Pi Setup:
 
 5. Open terminal on the raspberry Pi and type the following command to launch the Chromium browser with the web app in fullscreen mode.
 
-    chromium-browser --app=<e.g. home/piticker/index.html> --start-fullscreen
+    DISPLAY=:0 chromium-browser --app=index.html --start-fullscreen
     
 6. Optional - You can modify the Pi's boot files to auto launch the web app on boot. Guide on doing this can be found here: https://blog.gordonturner.com/2017/07/22/raspberry-pi-full-screen-browser-raspbian-july-2017/
